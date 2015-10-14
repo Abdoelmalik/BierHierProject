@@ -1,14 +1,33 @@
 @CHARSET "ISO-8859-1";
 
-body{
+body.home{
 	background-color: darkgray;
 	
 }
 
+body.contact {
+	background-color:white;
+}
+
+.main {
+	background-color:lightblue; 
+	font-family: 'Raleway', sans-serif;
+	
+	
+	
+	}
+
+p.black{
+	
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	
+	
+}
 
 
 h1{
-	color: white;
+	color: black;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
 	text-decoration: underline;
@@ -36,11 +55,20 @@ p {
     color: white;
 }
 
+.navigatie {
+	font-family: "oswald";
+	color:white;
+	background-color: lightblue;
+    width: auto;
+    height: 40px;
+    padding: 5px;
+    border: 3px solid blue;
+    margin: 5px;  
+}
 
 
 
-
-div{
+div.header {
 
 	font-family: "oswald";
 	color:white;
@@ -48,16 +76,15 @@ div{
     width: auto;
     height: 40px;
     padding: 5px;
-    border: 3px ridge blue;
+    border: 3px solid blue;
     margin: 5px;  
-  
   	
 }
 
 div.social-icons{
 	float: right;
-	height: 40px;
-	margin-top: -61px;
+	height: 30px;
+	margin-top: -3px;
 	width: 250px;
 }
 
@@ -83,4 +110,9 @@ footer{
 
 div#GoogleMap{
 	
+}
+h3{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+		
 }
